@@ -1,16 +1,16 @@
 {
-    "name": "kayzennotdev/bail",
+    "name": "AndroTamvan/Vortex-bailys",
     "version": "1.7.3",
     "description": "Have A Nice Day",
     "keywords": [
         "whatsapp-baileys"
     ],
-    "homepage": "https://github.com/kayzennotdev/bail",
+    "homepage": "https://github.com/AndroTamvan/Vortex-bailys",
     "repository": {
-        "url": "https://github.com/kayzennotdev/bail"
+        "url": "https://github.com/AndroTamvan/Vortex-bailys"
     },
     "license": "MIT",
-    "author": "kayzennotdev",
+    "author": "NdroVortex",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
