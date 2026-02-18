@@ -1,7 +1,7 @@
 # WhatsApp Baileys
 
 <p align="center">
-  <img src="https://files.catbox.moe/369pux.jpg" alt="Thumbnail" />
+  <img src="https://files.catbox.moe/882dri.jpg" alt="Thumbnail" />
 </p>
 
 WhatsApp Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience..
@@ -87,7 +87,7 @@ const nameImg = fs.readFileSync('./YourImage');
 await client.sendMessage(m.chat, {
   thumbnail: YourImg,
   message: "Gotta get a grip",
-  orderTitle: "HaveANiceDay",
+  orderTitle: "HaiSomeone",
   totalAmount1000: 8888,
   totalCurrencyCode: "IDR"
 }, { quoted:m })
@@ -107,7 +107,7 @@ await client.sendMessage(m.chat, {
       }
     ],
     newsletter: {
-      newsletterName: "Kayzennotdev",
+      newsletterName: "NdroVortex",
       newsletterJid: "1@newsletter"
     }
   }
@@ -123,13 +123,13 @@ await client.relayMessage(m.chat, {
     thumbnail: { url: "./YourImage" },
     productId: "EXAMPLE_TOKEN",
     retailerId: "EXAMPLE_RETAILER_ID",
-    url: "https://t.me/kayzennotdev",
+    url: "https://t.me/NdroVortex",
     body: "Nak Tido",
     footer: "Footer",
     buttons: [
       {
         name: "cta_url",
-        buttonParamsJson: "{\"display_text\":\"kayzen\",\"url\":\"https://t.me/kayzennotdev\"}"
+        buttonParamsJson: "{\"display_text\":\"ndro\",\"url\":\"https://t.me/NdroVortex\"}"
       }
     ],
     priceAmount1000: 72502,
@@ -137,17 +137,3 @@ await client.relayMessage(m.chat, {
   }
 })
 ```
-## Thanks For Support
-```javascript
-const thanksFor = async () => {
-  const credit = new Map([
-    ["kayzen", ""],
-    ["Gupong", "source my fork"],
-    ["yuukey", "main source baileys ( maybe )"]
-  ]);
-
-  return Object.fromEntries(credit);
-};
-```
-
-
